@@ -1,35 +1,27 @@
 #include <stdio.h>
-
 int main(void) {
-  int x = -30;
-  switch (x) {
-
-    case -100 ... -1:
-    printf("pontuação negativada");
-    break;
-       
-  case 0 ... 10:
+  int x = 10;
+  if (0 <= x && x <= 10) {
     printf("insuficiente");
-    break;
-
-  case 11 ... 40:
+  }
+  if (10 < x && x <= 40) {
     printf("regular");
-    break;
-
-  case 41 ... 70:
+  }
+  if (40 < x && x <= 70) {
     printf("bom");
-    break;
-
-  case 71 ... 90:
+  }
+  if (70 < x && x <= 90) {
     printf("otimo");
-    break;
-
-  case 91 ... 100:
+  }
+  if (90 < x && x <= 100) {
     printf("excelente");
-    break;
-
-  default:
+  }
+  else if ( 100 < x){
     printf("pontuação maxima alcançada");
   }
+else if (100 < x){
+  printf("pontuação negativada");
+}
+ 
   return 0;
 }
