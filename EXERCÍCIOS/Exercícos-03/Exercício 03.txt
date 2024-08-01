@@ -1,0 +1,15 @@
+EXERCICIO-03
+
+1) A manipulação de bits é uma técnica de programação que envolve a manipulação direta dos bits de um número binário.
+
+2) A manipulação de bits pode ser usada em diversas áreas, como Algoritmos de criptografia, Compressão de dados, Otimização de desempenho e Controle de hardware, entre outras. 
+
+3) Existem vários operadores comuns, incluindo:
+
+AND bit a bit (&): Retorna 1 se ambos os bits forem 1, caso contrário retorna 0.
+OR bit a bit (|): Retorna 1 se pelo menos um dos bits for 1, caso contrário retorna 0.
+NOT bit a bit (^): Retorna 1 se os bits forem diferentes, caso contrário retorna 0.
+Negação bit a bit (~): Inverte todos os bits de um número.
+Deslocamento para a esquerda (<<): Desloca os bits de um número para a esquerda e preenche com zeros à direita.
+Deslocamento para a direita (>>): Desloca os bits de um número para a direita e preenche com zeros à esquerda.
+
