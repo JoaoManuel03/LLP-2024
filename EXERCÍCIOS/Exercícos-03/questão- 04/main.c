@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Função para exibir os bits de um número
+
 void exibirBits(int num) {
     for (int i = 31; i >= 0; i--) {
         (num & (1 << i)) ? printf("1") : printf("0");
