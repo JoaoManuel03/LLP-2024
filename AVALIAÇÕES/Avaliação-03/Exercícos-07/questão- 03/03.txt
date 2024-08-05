@@ -1,0 +1,3 @@
+3.  Atravessar uma Rua:
+- Descrição: Escreva um pseudocódigo para atravessar uma rua com segurança.
+- Pseudocódigo:
