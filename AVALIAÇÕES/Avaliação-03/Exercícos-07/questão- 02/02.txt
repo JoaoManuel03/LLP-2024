@@ -1,0 +1,4 @@
+
+2. Fritar um Ovo:
+- Descrição: Escreva um pseudocódigo para fritar um ovo.
+- Pseudocódigo:
